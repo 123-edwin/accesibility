@@ -1,0 +1,15 @@
+.add-task-button {
+  background-color: #002AFA; /* Azul */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  align-items: center;
+  display: block;
+}
+
+.add-task-button:hover {
+  background-color: #011eb2; /* Azul oscuro */
+}

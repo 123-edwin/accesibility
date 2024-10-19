@@ -1,0 +1,40 @@
+.task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Aumento del espacio entre elementos */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde alrededor del formulario */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo más claro */
+  }
+  
+  .task-form input, 
+  .task-form textarea {
+    padding: 12px; /* Espaciado interno mejorado */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Tamaño de fuente mayor para mejor legibilidad */
+    width: 100%; /* Ocupa el ancho completo del contenedor */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+  }
+  
+  .task-form button {
+    background-color: #007BFF; /* Azul */
+    color: white;
+    border: none;
+    padding: 12px 20px; /* Mayor padding */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Tamaño de fuente mayor */
+    transition: background-color 0.3s; /* Transición suave al cambiar color */
+  }
+  
+  .task-form button:hover {
+    background-color: #0056b3; /* Azul oscuro */
+  }
+  
+  .error-message {
+    color: red; /* Color del mensaje de error */
+    font-weight: bold; /* Negrita para destacar el mensaje */
+  }
+  

@@ -1,0 +1,67 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box; /* Asegura que el padding y el borde no aumenten el ancho total */
+}
+
+.container {
+  display: flex; /* Habilita flexbox */
+  flex-direction: column;
+  justify-content: flex-start; /* Alinea horizontalmente al inicio */
+  align-items: center; /* Alinea verticalmente al inicio */
+  height: 100%; /* O el tamaño que necesites */
+  width: 100%;
+  padding: 10px;
+  
+}
+
+.header {
+  display: flex;               /* Habilita flexbox */
+  justify-content: space-between; /* Alinea elementos a la izquierda */
+  align-items: center;         /* Alinea verticalmente al centro */
+  width: 100%;
+  padding: 5px;              /* Espaciado interno */
+}
+
+.TaskIcon {
+  width: 4%; /* Ajusta el tamaño del icono */
+  height: 4%;
+}
+
+
+.title {
+  text-align: center;
+  width: 100%; /* Asegura que el título ocupe todo el ancho del contenedor */
+  font-size: 2em; /* Ajusta el tamaño del título si es necesario */
+}
+
+
+
+.task-list{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+
+}
+
+.task-list table {
+  width: auto; /* Ajusta el ancho de la tabla al contenido */
+  margin: 0 auto; /* Centra la tabla */
+}
+
+.task-list table td {
+  word-break: break-word;  /* Rompe palabras largas */
+  overflow-wrap: break-word; /* Asegura que las palabras se ajusten correctamente */
+}
+

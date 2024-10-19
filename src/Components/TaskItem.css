@@ -1,0 +1,16 @@
+.task-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9; /* Fondo claro */
+  }
+  
+  .task-item h3 {
+    margin: 0;
+  }
+  
+  .task-item p {
+    margin: 5px 0;
+  }
+  

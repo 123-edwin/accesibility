@@ -1,0 +1,80 @@
+/* Estilo del botón del dropdown */
+.dropbtn {
+  background-color: transparent; /* Fondo transparente para que el botón sea circular */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 50%; /* Hace que el botón sea redondo */
+  width: 40px; /* Establece un ancho para el botón */
+  height: 40px; /* Establece una altura para el botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  padding: 0; /* Elimina el padding del botón */
+  display: flex; /* Para centrar el ícono */
+  align-items: center; /* Alinear verticalmente */
+  justify-content: center; /* Alinear horizontalmente */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
+}
+
+/* Efecto hover para el botón */
+.dropbtn:hover {
+  background-color: #2980b9; /* Color de fondo en hover */
+}
+
+/* Efecto de enfoque */
+.dropbtn:focus {
+  outline: none;             /* Quita el contorno por defecto */
+  transform: scale(1.05);   /* Aumenta ligeramente el tamaño */
+}
+
+/* Estilo del contenedor del dropdown */
+.dropdown {
+  position: relative; /* Posición relativa para el contenedor */
+}
+
+/* Estilo del contenido del dropdown */
+.dropdown-content {
+  display: none; /* Oculta inicialmente el contenido del dropdown */
+  position: absolute; /* Posición absoluta */
+  background-color: #000000;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  min-width: 16px;
+  z-index: 1000; /* Asegura que el dropdown esté por encima de otros elementos */
+
+  left: 50%;
+  transform: translateX(-100%);
+}
+
+/* Estilo de los enlaces dentro del dropdown */
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Efecto hover para las opciones del dropdown */
+.dropdown-content a:hover {
+  background-color: #0e3a9a8e;
+  color: #ffffff;
+}
+
+/* Efecto cuando el dropdown está abierto */
+.dropdown-content a:focus {
+  background-color: #000000;
+  outline: none;
+}
+
+/* Muestra el dropdown cuando isOpen es true */
+.dropdown-content.show {
+  display: block; /* Muestra el contenido del dropdown */
+}
+
+.logo-icon {
+  width: 40px;  /* Cambia el tamaño según tus necesidades */
+  height: 40px;
+  background-color: #130a36;
+  border-radius: 50%;
+}
+
