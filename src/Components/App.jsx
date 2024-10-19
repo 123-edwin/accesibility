@@ -40,7 +40,7 @@ export function App() {
     <>
       <div className="container">
         <header className="header">
-          <img src="https://cdn-icons-png.flaticon.com/512/4345/4345800.png" className="TaskIcon" alt=""></img>
+          <img src="https://cdn-icons-png.flaticon.com/512/4345/4345800.png" className="TaskIcon" alt="Imagen Decorativa"></img>
           <h1 className="title">Agenda</h1>
           <ListOptions />
         </header>
