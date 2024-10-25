@@ -28,12 +28,12 @@ export function ListOptions() {
     <div className="dropdown" ref={dropdownRef}>
       {/* Al hacer clic, se alterna la visibilidad del menú */}
       <button className="dropbtn" onClick={()=>setIsOpen(!isOpen)}>
-        <img src={OptionsIcon} alt="Options" style={{ width: '20px', height: '20px', color: 'black' }} />
+        <img src={OptionsIcon} alt="Opciones" style={{ width: '20px', height: '20px', color: 'black' }} />
       </button>
 
       {/* El contenido del dropdown se muestra o se oculta según el estado */}
       <div className={`dropdown-content ${isOpen ? 'show' : ''}`}>
-        <a href="https://github.com/Isai-bot777"><img src={GithubLogo} className="logo-icon"></img></a>
+        <a href="https://github.com/Isai-bot777"><img src={GithubLogo} className="logo-icon" alt="GitHub"></img></a>
       </div>
     </div>
   );
